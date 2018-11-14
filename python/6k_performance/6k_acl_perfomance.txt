@@ -1,0 +1,245 @@
+configure
+interface 1
+rx on
+interface 48
+rx on
+access-list ipv4 acl1
+1 forward port 2 any any any
+sync access-list
+access-list ipv4 acl3
+3 forward port 4 any any any
+sync access-list
+access-list ipv4 acl5
+5 forward port 6 any any any
+sync access-list
+access-list ipv4 acl7
+7 forward port 8 any any any
+sync access-list
+access-list ipv4 acl9
+9 forward port 10 any any any
+sync access-list
+access-list ipv4 acl11
+11 forward port 12 any any any
+sync access-list
+access-list ipv4 acl13
+13 forward port 14 any any any
+sync access-list
+access-list ipv4 acl15
+15 forward port 16 any any any
+sync access-list
+access-list ipv4 acl17
+17 forward port 18 any any any
+sync access-list
+access-list ipv4 acl19
+19 forward port 20 any any any
+sync access-list
+access-list ipv4 acl21
+21 forward port 22 any any any
+sync access-list
+access-list ipv4 acl23
+23 forward port 24 any any any
+sync access-list
+access-list ipv4 acl25
+25 forward port 26 any any any
+sync access-list
+access-list ipv4 acl27
+27 forward port 28 any any any
+sync access-list
+access-list ipv4 acl29
+29 forward port 30 any any any
+sync access-list
+access-list ipv4 acl31
+31 forward port 32 any any any
+sync access-list
+access-list ipv4 acl33
+33 forward port 34 any any any
+sync access-list
+access-list ipv4 acl35
+35 forward port 36 any any any
+sync access-list
+access-list ipv4 acl37
+37 forward port 38 any any any
+sync access-list
+access-list ipv4 acl39
+39 forward port 40 any any any
+sync access-list
+access-list ipv4 acl41
+41 forward port 42 any any any
+sync access-list
+access-list ipv4 acl43
+43 forward port 44 any any any
+sync access-list
+access-list ipv4 acl45
+45 forward port 46 any any any
+sync access-list
+access-list ipv4 acl47
+47 forward port 48 any any any
+sync access-list
+interface 1
+apply access-list ip acl1 in
+interface 3
+apply access-list ip acl3 in
+interface 5
+apply access-list ip acl5 in
+interface 7
+apply access-list ip acl7 in
+interface 9
+apply access-list ip acl9 in
+interface 11
+apply access-list ip acl11 in
+interface 13
+apply access-list ip acl13 in
+interface 15
+apply access-list ip acl15 in
+interface 17
+apply access-list ip acl17 in
+interface 19
+apply access-list ip acl19 in
+interface 21
+apply access-list ip acl21 in
+interface 23
+apply access-list ip acl23 in
+interface 25
+apply access-list ip acl25 in
+interface 27
+apply access-list ip acl27 in
+interface 29
+apply access-list ip acl29 in
+interface 31
+apply access-list ip acl31 in
+interface 33
+apply access-list ip acl33 in
+interface 35
+apply access-list ip acl35 in
+interface 37
+apply access-list ip acl37 in
+interface 39
+apply access-list ip acl39 in
+interface 41
+apply access-list ip acl41 in
+interface 43
+apply access-list ip acl43 in
+interface 45
+apply access-list ip acl45 in
+interface 47
+apply access-list ip acl47 in
+access-list ipv4 acl48
+48 forward port 47 any any any
+sync access-list
+access-list ipv4 acl46
+46 forward port 45 any any any
+sync access-list
+access-list ipv4 acl44
+44 forward port 43 any any any
+sync access-list
+access-list ipv4 acl42
+42 forward port 41 any any any
+sync access-list
+access-list ipv4 acl40
+40 forward port 39 any any any
+sync access-list
+access-list ipv4 acl38
+38 forward port 37 any any any
+sync access-list
+access-list ipv4 acl36
+36 forward port 35 any any any
+sync access-list
+access-list ipv4 acl34
+34 forward port 33 any any any
+sync access-list
+access-list ipv4 acl32
+32 forward port 31 any any any
+sync access-list
+access-list ipv4 acl30
+30 forward port 29 any any any
+sync access-list
+access-list ipv4 acl28
+28 forward port 27 any any any
+sync access-list
+access-list ipv4 acl26
+26 forward port 25 any any any
+sync access-list
+access-list ipv4 acl24
+24 forward port 23 any any any
+sync access-list
+access-list ipv4 acl22
+22 forward port 21 any any any
+sync access-list
+access-list ipv4 acl20
+20 forward port 19 any any any
+sync access-list
+access-list ipv4 acl18
+18 forward port 17 any any any
+sync access-list
+access-list ipv4 acl16
+16 forward port 15 any any any
+sync access-list
+access-list ipv4 acl14
+14 forward port 13 any any any
+sync access-list
+access-list ipv4 acl12
+12 forward port 11 any any any
+sync access-list
+access-list ipv4 acl10
+10 forward port 9 any any any
+sync access-list
+access-list ipv4 acl8
+8 forward port 7 any any any
+sync access-list
+access-list ipv4 acl6
+6 forward port 5 any any any
+sync access-list
+access-list ipv4 acl4
+4 forward port 3 any any any
+sync access-list
+access-list ipv4 acl2
+2 forward port 1 any any any
+sync access-list
+interface 48
+apply access-list ip acl48 in
+interface 46
+apply access-list ip acl46 in
+interface 44
+apply access-list ip acl44 in
+interface 42
+apply access-list ip acl42 in
+interface 40
+apply access-list ip acl40 in
+interface 38
+apply access-list ip acl38 in
+interface 36
+apply access-list ip acl36 in
+interface 34
+apply access-list ip acl34 in
+interface 32
+apply access-list ip acl32 in
+interface 30
+apply access-list ip acl30 in
+interface 28
+apply access-list ip acl28 in
+interface 26
+apply access-list ip acl26 in
+interface 24
+apply access-list ip acl24 in
+interface 22
+apply access-list ip acl22 in
+interface 20
+apply access-list ip acl20 in
+interface 18
+apply access-list ip acl18 in
+interface 16
+apply access-list ip acl16 in
+interface 14
+apply access-list ip acl14 in
+interface 12
+apply access-list ip acl12 in
+interface 10
+apply access-list ip acl10 in
+interface 8
+apply access-list ip acl8 in
+interface 6
+apply access-list ip acl6 in
+interface 4
+apply access-list ip acl4 in
+interface 2
+apply access-list ip acl2 in

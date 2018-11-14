@@ -1,0 +1,145 @@
+configure
+interface elag 1
+exit
+interface 12
+force_tx on
+elag 1
+exit
+interface 13
+force_tx on
+elag 1
+exit
+interface 14
+force_tx on
+elag 1
+exit
+interface 15
+force_tx on
+elag 1
+exit
+interface 16
+force_tx on
+elag 1
+exit
+interface 17
+force_tx on
+elag 1
+exit
+interface 18
+force_tx on
+elag 1
+exit
+interface 19
+force_tx on
+elag 1
+exit
+interface 20
+force_tx on
+elag 1
+exit
+interface 21
+force_tx on
+elag 1
+exit
+interface 22
+force_tx on
+elag 1
+exit
+interface 23
+force_tx on
+elag 1
+exit
+interface 24
+force_tx on
+elag 1
+exit
+interface 25
+force_tx on
+elag 1
+exit
+interface 26
+force_tx on
+elag 1
+exit
+interface 27
+force_tx on
+elag 1
+exit
+interface 28
+force_tx on
+elag 1
+exit
+interface 29
+force_tx on
+elag 1
+exit
+interface 30
+force_tx on
+elag 1
+exit
+interface 31
+force_tx on
+elag 1
+exit
+interface 32
+force_tx on
+elag 1
+exit
+access-list ipv4 acl2
+2 forward elag elag1 any any any
+sync access-list
+interface 2
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 3
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 4
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 5
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 6
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 7
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 8
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 9
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 10
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+interface 11
+loopback on
+egroup 1
+apply access-list ip acl2 in
+exit
+access-list ipv4 acl1
+1 forward egroup egroup1 any any any
+sync access-list
+interface 1
+apply access-list ip acl1 in

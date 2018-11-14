@@ -1,0 +1,200 @@
+configure
+interface lag 1
+no routing
+interface 25
+lag 1
+access-list ipv4 acl1
+1 forward lag lag1 any any any
+sync access-list
+interface 1
+apply access-list ip acl1 in
+interface 2
+apply access-list ip acl1 in
+interface 3
+apply access-list ip acl1 in
+interface 4
+apply access-list ip acl1 in
+interface 5
+apply access-list ip acl1 in
+interface 6
+apply access-list ip acl1 in
+interface 7
+apply access-list ip acl1 in
+interface 8
+apply access-list ip acl1 in
+interface 9
+apply access-list ip acl1 in
+interface 10
+apply access-list ip acl1 in
+interface 11
+apply access-list ip acl1 in
+interface 12
+apply access-list ip acl1 in
+interface 13
+apply access-list ip acl1 in
+interface 14
+apply access-list ip acl1 in
+interface 15
+apply access-list ip acl1 in
+interface 16
+apply access-list ip acl1 in
+interface 17
+apply access-list ip acl1 in
+interface 18
+apply access-list ip acl1 in
+interface 19
+apply access-list ip acl1 in
+interface 20
+apply access-list ip acl1 in
+interface 21
+apply access-list ip acl1 in
+interface 22
+apply access-list ip acl1 in
+interface 23
+apply access-list ip acl1 in
+interface 24
+apply access-list ip acl1 in
+interface 25
+no routing
+no shutdown
+lag 1
+interface 26
+no routing
+no shutdown
+lag 1
+interface 27
+no routing
+no shutdown
+lag 1
+interface 28
+no routing
+no shutdown
+lag 1
+interface 29
+no routing
+no shutdown
+lag 1
+interface 30
+no routing
+no shutdown
+lag 1
+interface 31
+no routing
+no shutdown
+lag 1
+interface 32
+no routing
+no shutdown
+lag 1
+interface 33
+no routing
+no shutdown
+lag 1
+interface 34
+no routing
+no shutdown
+lag 1
+interface 35
+no routing
+no shutdown
+lag 1
+interface 36
+no routing
+no shutdown
+lag 1
+interface 37
+no routing
+no shutdown
+lag 1
+interface 38
+no routing
+no shutdown
+lag 1
+interface 39
+no routing
+no shutdown
+lag 1
+interface 40
+no routing
+no shutdown
+lag 1
+interface 41
+no routing
+no shutdown
+lag 1
+interface 42
+no routing
+no shutdown
+lag 1
+interface 43
+no routing
+no shutdown
+lag 1
+interface 44
+no routing
+no shutdown
+lag 1
+interface 45
+no routing
+no shutdown
+lag 1
+interface 46
+no routing
+no shutdown
+lag 1
+interface 47
+no routing
+no shutdown
+lag 1
+interface 48
+no routing
+no shutdown
+lag 1
+interface 49-1
+lag 1
+interface 49-2
+lag 1
+interface 49-3
+lag 1
+interface 49-4
+lag 1
+interface 50-1
+lag 1
+interface 50-2
+lag 1
+interface 50-3
+lag 1
+interface 50-4
+lag 1
+interface 51-1
+lag 1
+interface 51-2
+lag 1
+interface 51-3
+lag 1
+interface 51-4
+lag 1
+interface 52-1
+lag 1
+interface 52-2
+lag 1
+interface 52-3
+lag 1
+interface 52-4
+lag 1
+interface 53-1
+lag 1
+interface 53-2
+lag 1
+interface 53-3
+lag 1
+interface 53-4
+lag 1
+interface 54-1
+lag 1
+interface 54-2
+lag 1
+interface 54-3
+lag 1
+interface 54-4
+lag 1
