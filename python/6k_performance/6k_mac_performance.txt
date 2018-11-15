@@ -1,1 +1,288 @@
-mac-address static 00:00:00:00:00:11 interface 33 vlan 1mac-address static 00:00:00:00:00:12 interface 34 vlan 1mac-address static 00:00:00:00:00:13 interface 35 vlan 1mac-address static 00:00:00:00:00:14 interface 36 vlan 1mac-address static 00:00:00:00:00:15 interface 37 vlan 1mac-address static 00:00:00:00:00:16 interface 38 vlan 1mac-address static 00:00:00:00:00:17 interface 39 vlan 1mac-address static 00:00:00:00:00:18 interface 40 vlan 1mac-address static 00:00:00:00:00:19 interface 41 vlan 1mac-address static 00:00:00:00:00:20 interface 42 vlan 1mac-address static 00:00:00:00:00:21 interface 43 vlan 1mac-address static 00:00:00:00:00:22 interface 44 vlan 1mac-address static 00:00:00:00:00:23 interface 45 vlan 1mac-address static 00:00:00:00:00:24 interface 46 vlan 1mac-address static 00:00:00:00:00:25 interface 47 vlan 1mac-address static 00:00:00:00:00:26 interface 48 vlan 1
+vlan 2
+no shutdown
+vlan 3
+no shutdown
+vlan 4
+no shutdown
+vlan 5
+no shutdown
+vlan 6
+no shutdown
+vlan 7
+no shutdown
+vlan 8
+no shutdown
+vlan 9
+no shutdown
+vlan 10
+no shutdown
+vlan 11
+no shutdown
+vlan 12
+no shutdown
+vlan 13
+no shutdown
+vlan 14
+no shutdown
+vlan 15
+no shutdown
+vlan 16
+no shutdown
+vlan 17
+no shutdown
+vlan 18
+no shutdown
+vlan 19
+no shutdown
+vlan 20
+no shutdown
+vlan 21
+no shutdown
+vlan 22
+no shutdown
+vlan 23
+no shutdown
+vlan 24
+no shutdown
+vlan 25
+no shutdown
+vlan 26
+no shutdown
+vlan 27
+no shutdown
+vlan 28
+no shutdown
+vlan 29
+no shutdown
+vlan 30
+no shutdown
+vlan 31
+no shutdown
+vlan 32
+no shutdown
+vlan 33
+no shutdown
+vlan 34
+no shutdown
+vlan 35
+no shutdown
+vlan 36
+no shutdown
+vlan 37
+no shutdown
+interface 1
+vlan access 2
+interface 2
+vlan access 2
+interface 3
+vlan access 3
+interface 4
+vlan access 3
+interface 5
+vlan access 4
+interface 6
+vlan access 4
+interface 7
+vlan access 5
+interface 8
+vlan access 5
+interface 9
+vlan access 6
+interface 10
+vlan access 6
+interface 11
+vlan access 7
+interface 12
+vlan access 7
+interface 13
+vlan access 8
+interface 14
+vlan access 8
+interface 15
+vlan access 9
+interface 16
+vlan access 9
+interface 17
+vlan access 10
+interface 18
+vlan access 10
+interface 19
+vlan access 11
+interface 20
+vlan access 11
+interface 21
+vlan access 12
+interface 22
+vlan access 12
+interface 23
+vlan access 13
+interface 24
+vlan access 13
+interface 25
+vlan access 14
+interface 26
+vlan access 14
+interface 27
+vlan access 15
+interface 28
+vlan access 15
+interface 29
+vlan access 16
+interface 30
+vlan access 16
+interface 31
+vlan access 17
+interface 32
+vlan access 17
+interface 33
+vlan access 18
+interface 34
+vlan access 18
+interface 35
+vlan access 19
+interface 36
+vlan access 19
+interface 37
+vlan access 20
+interface 38
+vlan access 20
+interface 39
+vlan access 21
+interface 40
+vlan access 21
+interface 41
+vlan access 22
+interface 42
+vlan access 22
+interface 43
+vlan access 23
+interface 44
+vlan access 23
+interface 45
+vlan access 24
+interface 46
+vlan access 24
+interface 47
+vlan access 25
+interface 48
+vlan access 25
+interface 49-1
+vlan access 26
+interface 49-2
+vlan access 26
+interface 49-3
+vlan access 27
+interface 49-4
+vlan access 27
+interface 50-1
+vlan access 28
+interface 50-2
+vlan access 28
+interface 50-3
+vlan access 29
+interface 50-4
+vlan access 29
+interface 51-1
+vlan access 30
+interface 51-2
+vlan access 30
+interface 51-3
+vlan access 31
+interface 51-4
+vlan access 31
+interface 52-1
+vlan access 32
+interface 52-2
+vlan access 32
+interface 52-3
+vlan access 33
+interface 52-4
+vlan access 33
+interface 53-1
+vlan access 34
+interface 53-2
+vlan access 34
+interface 53-3
+vlan access 35
+interface 53-4
+vlan access 35
+interface 54-1
+vlan access 36
+interface 54-2
+vlan access 36
+interface 54-3
+vlan access 37
+interface 54-4
+vlan access 37
+mac-address static 00:00:00:00:00:02 interface 1 vlan 2
+mac-address static 00:00:00:00:00:01 interface 2 vlan 2
+mac-address static 00:00:00:00:00:02 interface 3 vlan 3
+mac-address static 00:00:00:00:00:01 interface 4 vlan 3
+mac-address static 00:00:00:00:00:02 interface 5 vlan 4
+mac-address static 00:00:00:00:00:01 interface 6 vlan 4
+mac-address static 00:00:00:00:00:02 interface 7 vlan 5
+mac-address static 00:00:00:00:00:01 interface 8 vlan 5
+mac-address static 00:00:00:00:00:02 interface 9 vlan 6
+mac-address static 00:00:00:00:00:01 interface 10 vlan 6
+mac-address static 00:00:00:00:00:02 interface 11 vlan 7
+mac-address static 00:00:00:00:00:01 interface 12 vlan 7
+mac-address static 00:00:00:00:00:02 interface 13 vlan 8
+mac-address static 00:00:00:00:00:01 interface 14 vlan 8
+mac-address static 00:00:00:00:00:02 interface 15 vlan 9
+mac-address static 00:00:00:00:00:01 interface 16 vlan 9
+mac-address static 00:00:00:00:00:02 interface 17 vlan 10
+mac-address static 00:00:00:00:00:01 interface 18 vlan 10
+mac-address static 00:00:00:00:00:02 interface 19 vlan 11
+mac-address static 00:00:00:00:00:01 interface 20 vlan 11
+mac-address static 00:00:00:00:00:02 interface 21 vlan 12
+mac-address static 00:00:00:00:00:01 interface 22 vlan 12
+mac-address static 00:00:00:00:00:02 interface 23 vlan 13
+mac-address static 00:00:00:00:00:01 interface 24 vlan 13
+mac-address static 00:00:00:00:00:02 interface 25 vlan 14
+mac-address static 00:00:00:00:00:01 interface 26 vlan 14
+mac-address static 00:00:00:00:00:02 interface 27 vlan 15
+mac-address static 00:00:00:00:00:01 interface 28 vlan 15
+mac-address static 00:00:00:00:00:02 interface 29 vlan 16
+mac-address static 00:00:00:00:00:01 interface 30 vlan 16
+mac-address static 00:00:00:00:00:02 interface 31 vlan 17
+mac-address static 00:00:00:00:00:01 interface 32 vlan 17
+mac-address static 00:00:00:00:00:02 interface 33 vlan 18
+mac-address static 00:00:00:00:00:01 interface 34 vlan 18
+mac-address static 00:00:00:00:00:02 interface 35 vlan 19
+mac-address static 00:00:00:00:00:01 interface 36 vlan 19
+mac-address static 00:00:00:00:00:02 interface 37 vlan 20
+mac-address static 00:00:00:00:00:01 interface 38 vlan 20
+mac-address static 00:00:00:00:00:02 interface 39 vlan 21
+mac-address static 00:00:00:00:00:01 interface 40 vlan 21
+mac-address static 00:00:00:00:00:02 interface 41 vlan 22
+mac-address static 00:00:00:00:00:01 interface 42 vlan 22
+mac-address static 00:00:00:00:00:02 interface 43 vlan 23
+mac-address static 00:00:00:00:00:01 interface 44 vlan 23
+mac-address static 00:00:00:00:00:02 interface 45 vlan 24
+mac-address static 00:00:00:00:00:01 interface 46 vlan 24
+mac-address static 00:00:00:00:00:02 interface 47 vlan 25
+mac-address static 00:00:00:00:00:01 interface 48 vlan 25
+mac-address static 00:00:00:00:00:02 interface 49-1 vlan 26
+mac-address static 00:00:00:00:00:01 interface 49-2 vlan 26
+mac-address static 00:00:00:00:00:02 interface 49-3 vlan 27
+mac-address static 00:00:00:00:00:01 interface 49-4 vlan 27
+mac-address static 00:00:00:00:00:02 interface 50-1 vlan 28
+mac-address static 00:00:00:00:00:01 interface 50-2 vlan 28
+mac-address static 00:00:00:00:00:02 interface 50-3 vlan 29
+mac-address static 00:00:00:00:00:01 interface 50-4 vlan 29
+mac-address static 00:00:00:00:00:02 interface 51-1 vlan 30
+mac-address static 00:00:00:00:00:01 interface 51-2 vlan 30
+mac-address static 00:00:00:00:00:02 interface 51-3 vlan 31
+mac-address static 00:00:00:00:00:01 interface 51-4 vlan 31
+mac-address static 00:00:00:00:00:02 interface 52-1 vlan 32
+mac-address static 00:00:00:00:00:01 interface 52-2 vlan 32
+mac-address static 00:00:00:00:00:02 interface 52-3 vlan 33
+mac-address static 00:00:00:00:00:01 interface 52-4 vlan 33
+mac-address static 00:00:00:00:00:02 interface 53-1 vlan 34
+mac-address static 00:00:00:00:00:01 interface 53-2 vlan 34
+mac-address static 00:00:00:00:00:02 interface 53-3 vlan 35
+mac-address static 00:00:00:00:00:01 interface 53-4 vlan 35
+mac-address static 00:00:00:00:00:02 interface 54-1 vlan 36
+mac-address static 00:00:00:00:00:01 interface 54-2 vlan 36
+mac-address static 00:00:00:00:00:02 interface 54-3 vlan 37
+mac-address static 00:00:00:00:00:01 interface 54-4 vlan 37

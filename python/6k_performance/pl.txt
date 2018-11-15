@@ -1,48 +1,12 @@
-no access-list ip acl1
-no access-list ip acl2
-no access-list ip acl3
-no access-list ip acl4
-no access-list ip acl5
-no access-list ip acl6
-no access-list ip acl7
-no access-list ip acl8
-no access-list ip acl9
-no access-list ip acl10
-no access-list ip acl11
-no access-list ip acl12
-no access-list ip acl13
-no access-list ip acl14
-no access-list ip acl15
-no access-list ip acl16
-no access-list ip acl17
-no access-list ip acl18
-no access-list ip acl19
-no access-list ip acl20
-no access-list ip acl21
-no access-list ip acl22
-no access-list ip acl23
-no access-list ip acl24
-no access-list ip acl25
-no access-list ip acl26
-no access-list ip acl27
-no access-list ip acl28
-no access-list ip acl29
-no access-list ip acl30
-no access-list ip acl31
-no access-list ip acl32
-no access-list ip acl33
-no access-list ip acl34
-no access-list ip acl35
-no access-list ip acl36
-no access-list ip acl37
-no access-list ip acl38
-no access-list ip acl39
-no access-list ip acl40
-no access-list ip acl41
-no access-list ip acl42
-no access-list ip acl43
-no access-list ip acl44
-no access-list ip acl45
-no access-list ip acl46
-no access-list ip acl47
-no access-list ip acl48
+interface 49
+apply access-list ip acl49 in
+interface 50
+apply access-list ip acl50 in
+interface 51
+apply access-list ip acl51 in
+interface 52
+apply access-list ip acl52 in
+interface 53
+apply access-list ip acl53 in
+interface 54
+apply access-list ip acl54 in
